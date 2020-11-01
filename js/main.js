@@ -30,18 +30,18 @@ const createInfo = (unit) => {
           </div>
   `;
   deviceInfo.innerHTML = `
-    <div><span>Тип оборудования: </span> ${unit.type}</div>
-    <div><span>Статус: </span> ${unit.status}</div>
-    <div><span>Изготовитель: </span> ${unit.producer}</div>
-    <div><span>Модель: </span> ${unit.model}</div>
-    <div><span>Ответственное подразделение (ремонт): </span> ${unit.repair}</div>
-    <div><span>Эксплуатирующее подразделение: </span> ${unit.operating}</div>
-    <div><span>МОЛ: </span> ${unit.mol}</div>
-    <div><span>Территория: </span> ${unit.territory}</div>
-    <div><span>Серийный номер: </span> ${unit.serial}</div>
-    <div><span class="IDs">GUID: </span> ${unit.guid}</div>
-    <div><span class="IDs">Bims: </span> ${unit.bims}</div>
-    <div><span class="IDs">Tam: </span> ${unit.tam}</div>
+    <div><span>Тип оборудования: </span> </p>${unit.type}</p></div>
+    <div><span>Статус: </span> <p>${unit.status}</p></div>
+    <div><span>Изготовитель: </span> <p>${unit.producer}</p></div>
+    <div><span>Модель: </span> <p>${unit.model}</p></div>
+    <div><span>Ответственное подразделение (ремонт): </span> <p>${unit.repair}</p></div>
+    <div><span>Эксплуатирующее подразделение: </span> <p>${unit.operating}</p></div>
+    <div><span>МОЛ: </span> <p>${unit.mol}</p></div>
+    <div><span>Территория: </span> <p>${unit.territory}</p></div>
+    <div><span>Серийный номер: </span> <p>${unit.serial}</p></div>
+    <div><span>GUID: </span> <p class="IDs">${unit.guid}</p></div>
+    <div><span>Bims: </span> <p class="IDs">${unit.bims}</p></div>
+    <div><span>Tam: </span> <p class="IDs">${unit.tam}</p></div>
   `;
 };
 

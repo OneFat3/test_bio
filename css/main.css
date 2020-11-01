@@ -5249,9 +5249,14 @@ h2 {
   font-size: 14px;
   line-height: 17px; }
   .deviceInfo span {
-    display: inline-block;
-    margin-bottom: 5px;
     color: #8c8c8c; }
+  .deviceInfo div {
+    margin: 6px 0; }
+  .deviceInfo p {
+    margin: 0;
+    display: inline-block; }
+  .deviceInfo .IDs {
+    color: #4990e2; }
 
 .tableData {
   margin-left: 20px;
