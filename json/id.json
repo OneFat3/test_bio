@@ -1,0 +1,38 @@
+{
+  "units": [
+    {
+      "type": "Весы",
+      "serial": "B715976163",
+      "guid": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
+      "bims": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
+      "tam": "А-004321",
+      "name": "Аналитические весы OHAUS Adventurer АХ324 (B715976163)",
+      "img": "img/iconID1.svg",
+      "status": "Готов к работе",
+      "producer": "Ohaus",
+      "model": "AX-123",
+      "repair": "Группа обслуживания лабораторного оборудования",
+      "operating": "Химико-аналитическая лаборатория 2.0",
+      "mol": "Иванов Иван Иванович",
+      "territory": "г. Санкт-Петербург (Нойдорф)",
+      "reportUrl": "./json/report.json"
+    },
+    {
+      "type": "Весы",
+      "serial": "A634976163",
+      "guid": "608b2a71-882e-4983-ae0c-3cb0c1cd21c5",
+      "bims": "66db8db1-588f-4b9e-bbf0-8a59698edc8b",
+      "tam": "А-001234",
+      "name": "Аналитические весы OHAUS Adventurer АХ321 (A634976163)",
+      "img": "img/iconID1.svg",
+      "status": "Готов к работе",
+      "producer": "Ohaus",
+      "model": "AX-123",
+      "repair": "Группа обслуживания лабораторного оборудования",
+      "operating": "Химико-аналитическая лаборатория 2.0",
+      "mol": "Иванов Иван Иванович",
+      "territory": "г. Москва (Нойдорф)",
+      "reportUrl": "./json/report.json"
+    }
+  ]
+}

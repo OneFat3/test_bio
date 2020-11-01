@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- Useful meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow, noodp" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header_search-form">
+                <p>Enter inventory number, guid or bims id</p>
+                <form class="form-inline my-2 my-lg-0" id="searchDevice">
+                    <input class="form-control mr-sm-3" type="search" placeholder="number/guid/bims id"
+                        aria-label="Search" name="search" />
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+        <div id="dataWrapper">
+            <div class="row unitData" id="unitData">
+                <div class="col-5">
+                    <div id="unitInfo" class="row unitInfo">
+                        <!-- <div class="col-2">
+                            <img class="unitImg" src="img/iconID1.svg" alt="" />
+                        </div>
+                        <div class="col-10">
+                            <h1>Аналитические весы OHAUS Adventurer АХ324 (B715976163)</h1>
+                        </div> -->
+                    </div>
+                    <div id="reportFilters" class="col-8">
+                        <form id="filters">
+                            <div class="form-group">
+                                <select class="form-control dateFilter" id="dateFilter">
+                                    <option>1 month</option>
+                                    <option>1 week</option>
+                                    <option>1 day</option>
+                                    <option>1 year</option>
+                                </select>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="calibration" name="workFilter" class="custom-control-input"
+                                        value="calibration">
+                                    <label class="custom-control-label" for="calibration">Calibration</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="measuring" name="workFilter" class="custom-control-input"
+                                        value="measuring">
+                                    <label class="custom-control-label" for="measuring">Measuring</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="using" name="workFilter" class="custom-control-input"
+                                        value="using">
+                                    <label class="custom-control-label" for="using">Using</label>
+                                </div>
+                                <button class="btn btn-primary btnReport" type="submit" id="btnReport">Generate
+                                    report</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 deviceInfo" id="deviceInfo">
+                <div><span>Тип оборудования: </span></div>
+                <div><span>Статус: </span></div>
+                <div><span>Изготовитель: </span></div>
+                <div><span>Модель: </span></div>
+                <div><span>Ответственное подразделение (ремонт): </span></div>
+                <div><span>Эксплуатирующее подразделение: </span> </div>
+                <div><span>МОЛ: </span></div>
+                <div><span>Территория: </span></div>
+                <div><span>Серийный номер: </span></div>
+                <div><span class="IDs">GUID: </span></div>
+                <div><span class="IDs">Bims ID: </span></div>
+                <div><span class="IDs">Tam: </span></div>
+            </div>
+
+        </div>
+        <div id="tableData" class="row tableData">
+            <div class="tableHeader intro">
+                <h2>Выберите устройство и создайте отчёт</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
